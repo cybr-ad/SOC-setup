@@ -3,12 +3,9 @@ there should be the class file and the "Update__setup_server.ps1" in desktop
 winserver 2022 
 open powershell as admin
 ```
-cd C:\Users\Administrator\Desktop\
+cd "C:\Users\Administrator\Desktop\"
 Set-ExecutionPolicy -Scope Process Bypass -Force
-
-.\Update__setup_server.ps1 `
-    -SplunkServerIP 192.168.10.1 `
-    -SplunkPort 9997
+.\Setup-SOC-WinServer2022.ps1 -SplunkServerIP 192.168.10.1 -SplunkPort 9997
 
 ```
 
