@@ -1,6 +1,6 @@
 # SOC-setup
 first download and extract to desktop [ https://drive.google.com/file/d/1UK3aTyimqMoZ_aL9aP3rkI4uN4TpXJFd/view?usp=sharing ]
-location example : C:\Users\Laptop\Desktop\class file
+location example : C:\Users\Laptop\Desktop\class file\...\..\...
 
 
 there should be the class file and the "Update__setup_server.ps1" in desktop 
