@@ -21,7 +21,7 @@ there should be the class file and the "host_side_splank.ps1" in desktop
 ```
 cd "$HOME\Desktop"
 Set-ExecutionPolicy -Scope Process Bypass -Force
-.\setup-win11-splunk-host.ps1
+.\host_setup_v2.ps1
 
 ```
 
