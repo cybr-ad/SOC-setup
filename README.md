@@ -21,7 +21,7 @@ there should be the class file and the "host_side_splank.ps1" in desktop
 ```
 cd "$HOME\Desktop"
 Set-ExecutionPolicy -Scope Process Bypass -Force
-.\host_setup_v2.ps1
+.\host_spank_v3.ps1
 
 ```
 
