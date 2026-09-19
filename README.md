@@ -7,9 +7,7 @@ there should be the class file and the "Setup-SOC-WinServer2022.ps1" in desktop
 winserver 2022 
 open powershell as admin
 ```
-cd "$HOME\Desktop"
-Set-ExecutionPolicy -Scope Process Bypass -Force
-.\Setup-SOC-WinServer2022.ps1 -SplunkServerIP 192.168.10.1 -SplunkPort 9997
+cd "$HOME\Desktop"; Set-ExecutionPolicy -Scope Process Bypass -Force; .\Setup-SOC-WinServer2022.ps1 -SplunkServerIP 192.168.10.1 -SplunkPort 9997
 
 ```
 
@@ -19,9 +17,7 @@ host side win 11
 there should be the class file and the "host_spank_v3.ps1" in desktop
 
 ```
-cd "$HOME\Desktop"
-Set-ExecutionPolicy -Scope Process Bypass -Force
-.\host_spank_v3.ps1
+cd "$HOME\Desktop"; Set-ExecutionPolicy -Scope Process Bypass -Force; .\host_spank_v3.ps1
 
 ```
 
